@@ -1,5 +1,6 @@
-# LAMP
+# LAMP con Docker
 
+## Instalación en Ubuntu
 #### Explicación previa
 
 Con el docker-compose, montaremos tres contenedores, uno con Apache, otro con MySQL y uno con PHPmyAdmin. En el "Dockerfile" se encuentra la configuración de apache con PHP. Es importante respetar la estructura de carpetas que se presenta a continuación. 
@@ -84,5 +85,23 @@ Accedemos:
 
 # Configurar Apache con Netbeans 
 
+#### Instalamos Netbeans
+
+Primero instalamos el JDK (herramientas de java para que pueda funcionar)
+
+            apt install openjdk-8-jdk
+            
+Posteriormente instalamos Netbeans con Snap:
+
+            snap install netbeans --classic
+            
+Abrimos el Netbeans y comprobamos que funcione: 
+
+![imagen](https://user-images.githubusercontent.com/80277545/146686232-a73551d4-4838-4a5d-9ddf-8e62ceba3e8c.png)
+
+
+
+          
+ 
 
 
