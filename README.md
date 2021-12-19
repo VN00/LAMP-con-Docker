@@ -14,8 +14,6 @@ Lo primero que haremos es crear una carpeta de trabajo, que puede llamarse "ENTO
 ![imagen](https://user-images.githubusercontent.com/80277545/146685326-0cb4a09e-91f3-4a01-b43b-59291a2b36b6.png)
 
 
-![imagen](https://user-images.githubusercontent.com/80277545/146682822-1b5071eb-6794-4097-8334-15c9c17be434.png)
-
 En caso de utilizar Linux, este proceso se resume a crear el directorio "ENTORNO_PHP_MYSQL" y dentro de este ejecutar _git clone https://github.com/Zoser777/LAMP .
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146685269-fd5da4eb-155a-4c08-9e20-ede1b3360961.png)
