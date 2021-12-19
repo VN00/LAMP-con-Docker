@@ -134,4 +134,55 @@ Ahora si recargamos el navegador, nos sale el siguiente resultado:
 ![imagen](https://user-images.githubusercontent.com/80277545/146688762-8e6df365-da12-4a16-9f5e-7c617bd020b4.png)
 
 
+## Creando proyecto en NetBeans
+
+Creamos un proyecto PHP:
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688867-09426543-1bef-4b9c-a7c6-8b4ab3f53f5a.png)
+
+Ahora tendremos que marcar la ruta de la carpeta "src":
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688907-15565de6-6424-4e3c-8c7b-85d34b0e5079.png)
+
+Ahora pondremos la IP de nuestro contenedor:
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688933-1a1b21d7-4091-4fa3-8909-e31b0d999188.png)
+
+Daremos en "finish" y ya lo tendremos todo listo:
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688966-d54874b4-584b-4848-b8e0-3c8efd95fc2f.png)
+
+Creamos un archivo de prueba y guardamos:
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688996-a6f31d81-5325-4783-974a-bc187c075624.png)
+
+Daremos donde pone "RUN":
+
+![imagen](https://user-images.githubusercontent.com/80277545/146689029-ff5346f4-014f-4d21-9d68-687402464a2a.png)
+
+Por último, se nos abrirá el navegador:
+
+![imagen](https://user-images.githubusercontent.com/80277545/146689052-778a6e91-8ba1-4521-852e-fcb79ca3377f.png)
+
+# Aclaración
+
+Los archivos que creemos siempre van a estar en nuestro documento "src", al igual que en nuestro contenedor "php-apache". 
+
+Cuando apaguemos el ordenador, cuando volvemos a encenderlo, tendremos que volver a iniciar los contenedores, ya que estos se apagan al apagarse el ordenador. Esto lo haremos con :
+
+            docker start ID_CONTENEDOR
+
+Tendremos que inciar los 3 contenedores. 
+
+Los datos de MySQL los hemos visto y están en el archivo docker-compose.yaml
+
+
+
+
+
+
+
+
+
+
 
