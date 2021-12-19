@@ -116,8 +116,8 @@ Abrimos el Netbeans y comprobamos que funcione:
 
 Ahora optenemos la IP del contendor:
 
+![imagen](https://user-images.githubusercontent.com/80277545/146688816-be98e9df-6206-4996-994a-c0ebd1294c22.png)
 
-![imagen](https://user-images.githubusercontent.com/80277545/146687315-8c52aef0-05cf-4b48-ad1c-f986d3876c1a.png)
 
 
 Si ponemos la IP, nos tendría que solventar con la pagina: 
