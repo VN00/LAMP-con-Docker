@@ -99,6 +99,12 @@ Abrimos el Netbeans y comprobamos que funcione:
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146686232-a73551d4-4838-4a5d-9ddf-8e62ceba3e8c.png)
 
+##### Configuramos apache
+
+![imagen](https://user-images.githubusercontent.com/80277545/146686351-e49c4184-b941-47dd-a1bc-818279579817.png)
+
+Ahora optenemos la IP del contendor:
+
 
 
           
