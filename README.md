@@ -17,7 +17,9 @@ Lo primero que haremos es crear una carpeta de trabajo, que puede llamarse "ENTO
 
 En caso de utilizar Linux, este proceso se resume a crear el directorio "ENTORNO_PHP_MYSQL" y dentro de este ejecutar _git clone https://github.com/Zoser777/LAMP .
 
-![imagen](https://user-images.githubusercontent.com/80277545/146685269-fd5da4eb-155a-4c08-9e20-ede1b3360961.png)
+![imagen](https://user-images.githubusercontent.com/80277545/146687132-20066833-38db-4cad-8524-96759f3066da.png)
+
+
 
 #### Estructura:
 
@@ -34,6 +36,15 @@ Podemos abrir el documento .yaml y modificar usuario, contrase√±a, etc. Estos s√
 
 
 #### Desplegando entorno
+
+Instalamos Docker:
+
+      sudo apt install docker.io
+      
+      
+Instalamos Curl:
+
+      sudo apt install curl
 
 Instalamos Docker compose con el siguiente comando:
 
