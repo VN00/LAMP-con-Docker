@@ -124,6 +124,14 @@ Si ponemos la IP, nos tendría que solventar con la pagina:
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146687326-5b113752-762d-404f-b380-43ea09c1dff0.png)
 
- 
+ Este "Forbidden" se debe a que no tenemos ninguna pagina cargada, si nos vamos a nuestra carpeta "ENTORNO_PHP_MYSQL", dentro de "php", "src" creamos un index.html con cualquier contenido, nos saldrá en Apache. 
+Si analizamos el docker-compose.yaml, esto se debe a que está creado el volumen. 
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688726-011915b6-bf06-49b2-8574-354eea443ed2.png)
+
+Ahora si recargamos el navegador, nos sale el siguiente resultado: 
+
+![imagen](https://user-images.githubusercontent.com/80277545/146688762-8e6df365-da12-4a16-9f5e-7c617bd020b4.png)
+
 
 
