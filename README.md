@@ -37,3 +37,11 @@ Para acceder a PHPmyAdmin tendremos que poner en nuestro navegador "localhost:80
 
 
 
+#### Configurando NetBeans con Apache 
+
+Para configurar el NetBeans con el contenedor de Apache, tendremos que acceder al contenedor de Apache con nombre "php-apache" , _docker exec -it php-apache /bin/bash_.
+
+Una vez dentro descargamos "net-tools", esto para saber la ip del contenedor. _"apt install net-tools"_. 
+Ahora podremos ejecutar _ifconfig_ y tomaremos la IP. 
+
+
