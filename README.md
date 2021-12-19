@@ -10,4 +10,14 @@ En caso de utilizar Linux, este proceso se resume a crear el directorio "ENTORNO
 
 #### Configuración de los archivos
 
-Podemos abrir el documento .yaml y modificar usuarios y contraseñas. Esto són los que posteriormente usaremos para acceder a PHPmyAdmin. 
+Podemos abrir el documento .yaml y modificar usuario, contraseña, etc. Estos són los que posteriormente usaremos para acceder a PHPmyAdmin y MySQL.
+
+![imagen](https://user-images.githubusercontent.com/80277545/146683152-50cba285-5243-4d35-8193-3d3461f7aadf.png)
+
+#### Desplegando entorno
+
+Una vez tenemos creados los documentos y modificado los parametros correspondientes, podemos situarnos en la carpeta "ENTORNO_PHP_MYSQL" y ejecutar "docker compose up" y se empezarán a montar los contenedores. 
+
+#### Accediendo a los contenedores
+
+Para acceder a cada uno de los contenedores ejecutaremos desde la terminal "docker exec -it ID_CONTENEDOR /bin/bash"
