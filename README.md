@@ -9,7 +9,8 @@ La carpeta "src", será donde metamos nuestros archivos .html o .php para desple
 
 #### Preparación del entorno 
 
-Lo primero que haremos es crear una carpeta de trabajo, que puede llamarse "ENTORNO_PHP_MYSQL". Dentro de esta, crearemos el archivo _docker-compose.yaml_, en el cual copiaremos el contenido del archivo docker que se encuentra en este repositorio. En esta carpeta también tendremos que crear un archivo con nombre _Dockerfile_, en el cual también copiaremos el contenido del Dockerfile que hay en este repositorio. Por último, crearemos una carpeta dentro de nombre _php_ y dentro de esta carpeta otra carpeta de nombre _src_.
+
+Lo primero que haremos es crear una carpeta de trabajo, que puede llamarse "ENTORNO_PHP_MYSQL". Dentro de esta, generaremos el archivo _docker-compose.yaml_, en el cual copiaremos el contenido del archivo docker que se encuentra en este repositorio. En esta carpeta también tendremos que generar un archivo con nombre _Dockerfile_, en el cual también copiaremos el contenido del Dockerfile que hay en este repositorio. Por último, generaremos una carpeta dentro de nombre _php_ y dentro de esta carpeta otra carpeta de nombre _src_.
 
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146685326-0cb4a09e-91f3-4a01-b43b-59291a2b36b6.png)
@@ -62,12 +63,12 @@ Comprobamos que docker funciona:
 
 
 
-Una vez tenemos creados los documentos y modificado los parametros correspondientes, podemos situarnos en la carpeta "ENTORNO_PHP_MYSQL" y ejecutar "docker-compose up" y se empezarán a montar los contenedores. 
+Una vez tenemos creados los documentos y modificado los parámetros correspondientes, podemos situarnos en la carpeta "ENTORNO_PHP_MYSQL" y ejecutar "docker-compose up" y se empezarán a montar los contenedores. 
 
       docker-compose up -d
 
 
-Se empezarán a descargar las imagenes de los contenedores y a montarse.
+Se empezarán a descargar las imágenes de los contenedores y a montarse.
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146685711-2a60f340-7ae3-487a-b38a-558aad20e803.png)
 
@@ -124,7 +125,7 @@ Si ponemos la IP, nos tendría que solventar con la pagina:
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146687326-5b113752-762d-404f-b380-43ea09c1dff0.png)
 
- Este "Forbidden" se debe a que no tenemos ninguna pagina cargada, si nos vamos a nuestra carpeta "ENTORNO_PHP_MYSQL", dentro de "php", "src" creamos un index.html con cualquier contenido, nos saldrá en Apache. 
+ Este "Forbidden" se debe a que no tenemos ninguna página cargada, si nos vamos a nuestra carpeta "ENTORNO_PHP_MYSQL", dentro de "php", "src" creamos un index.html con cualquier contenido, nos saldrá en Apache. 
 Si analizamos el docker-compose.yaml, esto se debe a que está creado el volumen. 
 
 ![imagen](https://user-images.githubusercontent.com/80277545/146688726-011915b6-bf06-49b2-8574-354eea443ed2.png)
@@ -172,17 +173,8 @@ Cuando apaguemos el ordenador, cuando volvemos a encenderlo, tendremos que volve
 
             docker start ID_CONTENEDOR
 
-Tendremos que inciar los 3 contenedores. 
+Tendremos que iniciar los 3 contenedores. 
 
 Los datos de MySQL los hemos visto y están en el archivo docker-compose.yaml
-
-
-
-
-
-
-
-
-
 
 
