@@ -21,7 +21,7 @@ services:
             MYSQL_USER: root
             MYSQL_PASSWORD: proyecto
         ports:
-            - "3306:3306"
+            - "9906:3306"
 
     phpmyadmin:
         container_name: phpmyadmin
